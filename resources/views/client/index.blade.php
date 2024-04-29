@@ -28,7 +28,7 @@
 
           <div class="col-lg-4 col-12 mb-4 mb-lg-0">
               <div class="custom-block bg-white shadow-lg">
-                  <a href="topics-detail.html" class="text-decoration-none">
+                  <a href="#" class="text-decoration-none">
                       <div class="d-flex">
                           <div>
                               <h5 class="mb-2">Track Your Progress</h5>
@@ -42,8 +42,7 @@
                           <span class="badge bg-design rounded-pill ms-auto">14</span>
                       </div>
 
-                      <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
-                          class="custom-block-image img-fluid" alt="">
+                    
                   </a>
               </div>
           </div>
@@ -51,8 +50,7 @@
           <div class="col-lg-6 col-12">
               <div class="custom-block custom-block-overlay">
                   <div class="d-flex flex-column h-100">
-                      <img src="images/businesswoman-using-tablet-analysis.jpg"
-                          class="custom-block-image img-fluid" alt="">
+                      
 
                       <div class="custom-block-overlay-text d-flex">
                           <div>
@@ -92,9 +90,7 @@
       </div>
   </div>
 
-  <div class="curve-left">
-      <img src="./assets/images/pattern-curved-line-left.svg" alt="">
-  </div>
+ 
 </section>
 
 <section class="timeline-section section-padding" id="section_4">

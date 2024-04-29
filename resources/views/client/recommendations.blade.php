@@ -6,7 +6,7 @@
 
                 <div class="col-lg-8 col-12 mx-auto text-center">
 
-                    <h1 class="text-white">{{ $bmi }}</h1>
+                    <h1 class="text-white fw-bolder">{{ $bmi }}</h1>
                     @if ($bmi > 24.9)
                         <h6>
                             You're overweight
@@ -14,12 +14,12 @@
                     @elseif ($bmi < 18.5)
                         You're underweight
                     @else
-                        Congrates you're at healthy weight
+                        Congrates you're at healthy weight!
                     @endif
 
 
-                    <div class="custom-form mt-4 pt-2 mb-lg-0 mb-5">
-                        <a href="{{ route('calculator') }}"> <button type="submit" class="py-3 px-5">Search</button></a>
+                    <div class="mt-4 pt-2 mb-lg-0 mb-5">
+                        <a href="{{ route('calculator') }}"> <button type="submit" class="py-3 px-5">Calculate</button></a>
 
                     </div>
 
@@ -69,7 +69,7 @@
                                 @if ($bmi > 24.9)
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Breakfast</h5>
@@ -92,7 +92,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Snacks</h5>
@@ -114,7 +114,7 @@
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Lunch</h5>
@@ -137,7 +137,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12 mt-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Dinner</h5>
@@ -158,7 +158,7 @@
                                 @elseif ($bmi < 18.5)
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Breakfast</h5>
@@ -180,7 +180,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Lunch</h5>
@@ -202,7 +202,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Dinner</h5>
@@ -224,7 +224,7 @@
                                 @else
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Breakfast</h5>
@@ -245,7 +245,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Lunch</h5>
@@ -266,7 +266,7 @@
 
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html" class="text-decoration-none">
+                                            <a href="#" class="text-decoration-none">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Dinner</h5>
@@ -295,7 +295,7 @@
                                 @if ($bmi > 24.9)
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Walking</h5>
@@ -314,7 +314,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Swimming</h5>
@@ -333,7 +333,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Cycling</h5>
@@ -352,7 +352,7 @@
                                 @elseif ($bmi < 18.5)
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Bodyweight Squats</h5>
@@ -371,7 +371,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Push-Ups</h5>
@@ -390,7 +390,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Dumbbell Rows</h5>
@@ -408,7 +408,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Lunges</h5>
@@ -427,7 +427,7 @@
                                 @else
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Aerobic Exercise</h5>
@@ -446,7 +446,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Strength Training: </h5>
@@ -465,7 +465,7 @@
 
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="custom-block bg-white shadow-lg">
-                                        <a href="topics-detail.html" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <div class="d-flex">
                                                 <div>
                                                     <h5 class="mb-2">Flexibility</h5>
