@@ -13,5 +13,8 @@ class Controller extends BaseController
     {
         return view('client.index');
     }
-   
+   public function  dashboard()  {
+    return view('admin.dashboard');
+    
+   }
 }

@@ -18,7 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/dashboard',[Controller::class,'dashboard'])->name('dashboard');
 Route::get('/bmi-calculator',[Controller::class,'index'])->name('bmi-home');
 Route::get('/recommendation/{bmi}',[CalculatorController::class,'recommend'])->name('recommendations');
 Route::get('/calculator',[CalculatorController::class,'create'])->name('calculator');
 Route::post('/store',[CalculatorController::class ,'store'])->name('calculator.store');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

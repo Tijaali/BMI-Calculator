@@ -16,6 +16,8 @@ return new class extends Migration
             $table->float('height');
             $table->float('weight');
             $table->float('bmi');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }
